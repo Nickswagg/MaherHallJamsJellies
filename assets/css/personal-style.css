@@ -1,0 +1,110 @@
+
+.title{
+
+font-family: 'Montserrat', sans-serif;
+color: #ff5c5c;
+font-size: 40px !important;
+
+}
+.sub-title
+{
+ font-family: 'Montserrat', sans-serif;
+ color: #161e67;
+ font-size: 35px !important;
+ margin-top: -25px;
+}
+.product-title
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #ff5c5c;
+  font-size: 22px;
+  margin-top: 15px;
+  font-weight:600; 
+}
+.separator
+{
+	height: 1px;
+	width: 200px;
+	float: left;
+	background-color: #cccccc;
+	margin-bottom: 5px;
+}
+
+/* Carousel */
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -80px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #161e67;
+    width: 30px;
+    height: 5px;
+}
+
+.blog .carousel-indicators .active {
+background: #ff5c5c;
+}
+/* End */
+
+.btn-primary
+{
+	background-color: #161e67;
+	border-radius: 35px;
+	border-style: none;
+}
+.btn-primary:hover
+{
+	background-color: #ff5c5c;
+	border-radius: 35px;
+	border-style: none;
+}
+
+/* About */
+
+.about
+{
+  background-color: #161e67;
+  margin-top: -40px;
+}
+.whitetext
+{
+	color: #ffffff;
+}
+.bg-3
+{
+	background-color: #ff5c5c;
+}
+.bluetext
+{
+	text-align: center;
+	color: #161e67;
+	
+}
+
+/* Product Page */
+#modal-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 20px 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 4px 8px 4px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 50px;
+    background: #F2F2F2;
+  }
+  #modal-button:hover {
+    background: #E96B56;
+    color: #fff;
+  }
+
+  #portfolio{
+
+  	margin-top: 80px;
+  }
