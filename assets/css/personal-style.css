@@ -93,18 +93,17 @@ background: #ff5c5c;
     font-size: 15px;
     font-weight: 500;
     line-height: 1;
-    color: #444444;
+    color: white;
     margin: 0 4px 8px 4px;
     transition: all ease-in-out 0.3s;
     border-radius: 50px;
-    background: #F2F2F2;
+    background: #ff5c5c;
   }
   #modal-button:hover {
-    background: #E96B56;
+    background: rgb(255, 92, 92, 0.6);
     color: #fff;
   }
 
   #portfolio{
-
   	margin-top: 80px;
   }

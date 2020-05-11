@@ -1139,7 +1139,7 @@ section {
 .portfolio-details .portfolio-title {
   font-size: 26px;
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
@@ -1161,7 +1161,6 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding-top: 45px;
 }
 
 .portfolio-details .portfolio-info h3 {
