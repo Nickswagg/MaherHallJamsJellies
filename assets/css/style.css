@@ -658,7 +658,7 @@ section {
 }
 
 .featured .icon-box:hover i, .featured .icon-box:hover h3 a, .featured .icon-box:hover p {
-  color: #fff;
+ 
 }
 
 /*--------------------------------------------------------------
@@ -704,7 +704,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #e96b56;
+  background: #ff5c5c;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -749,8 +749,8 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #e96b56;
-  border-color: #e96b56;
+  background: #ff5c5c;
+  border-color: #ff5c5c;
 }
 
 .services .icon-box:hover .icon {
@@ -758,7 +758,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #e96b56;
+  color: #ff5c5c;
 }
 
 .services .icon-box:hover .icon::before {

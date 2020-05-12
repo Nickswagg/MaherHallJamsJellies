@@ -108,3 +108,111 @@ background: #ff5c5c;
 
   	margin-top: 80px;
   }
+
+/* Testimonials Carousel */
+.card {
+  margin: 0 auto;
+}
+.card .carousel-item {
+  height: 200px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+  color: #3d3d3d;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: #ff5c5c;
+    padding: 10px;
+    
+}
+a:hover > .ico {
+    background-color: #161e67;
+}
+.testimonials-title
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #161e67 !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+.icofont-quote-left
+{
+  color: #161e67 !important;
+  font-size: 18px;
+}
+.icofont-quote-right
+{
+  color: #161e67 !important;
+  font-size: 18px;
+}
+.text-box
+{
+  margin-top: -20px !important;
+  margin-bottom: -20px !important;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15) !important;
+}
+.rounded-circle
+{
+  border: 5px solid #ff5c5c;
+}
+/* End Testimonials Carousel */
+
+
+/* Products Page */
+.btn-primary
+{
+  background-color: #ff5c5c !important;
+  color: white !important;
+}
+.btn-primary:hover
+{
+  background-color: #E96B56;
+  background: rgb(255, 92, 92, 0.6);
+}
+
+/* Media Queries */
+
+@media (max-width: 575px){
+
+.text-box
+{
+  height: auto !important;
+}
+.rounded-circle {
+    border: 5px solid #ff5c5c;
+    height: 150px;
+    width: 150px;
+    margin-top: -200px;
+   
+}
+.w-100 {
+    padding-top: 200px;
+    width: 100%!important;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+
+
