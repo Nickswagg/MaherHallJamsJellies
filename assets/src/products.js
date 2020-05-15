@@ -16,15 +16,15 @@ let products = [
     6,
     "images/products/superberry.png",
     "Super Berry is exactly what you imagine, the perfect blend of sweet and sour berries.",
-    "Wild Blueberries, Organic Strawberries, Organic Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid."
+    ["Wild Blueberries", "Organic Strawberries", "Organic Blueberries", "Organic Cane Sugar", "Cinnamon Apple Pectin", "Ascorbic Acid (Vitamin C)", "Citric Acid."]
   ),
 
   new Product(
     "Strawberry",
-    8,
+    10,
     "images/products/Strawberry.png",
     "Strawberry jelly is the stuff of childhood dreams. Sunday afternoon tea is never right without it. It is an essential part of every pantry.",
-    "Water, Organic Strawberries, Organic Cane Sugar, Citric Acid, Natural Flavor, Organic Fruit And Vegetable Juice [Color]"
+    ["Water", "Organic Strawberries", "Organic Cane Sugar", "Citric Acid", "Natural Flavor", "Organic Fruit And Vegetable Juice [Color]"]
   ),
 
   new Product(
@@ -32,7 +32,7 @@ let products = [
     5,
     "images/products/raspberry.png",
     "The intense raspberry flavor of this jam makes it a longtime favorite. If you're not going to eat raspberries fresh out of hand by the fistful, this jam is the next best thing.",
-    "Organic Cane Sugar, Organic Raspberries, Fruit Pectin, Citric Acid."
+    ["Organic Cane Sugar", "Organic Raspberries", "Fruit Pectin", "Citric Acid"]
   ),
 
   new Product(
@@ -40,7 +40,7 @@ let products = [
     6,
     "images/products/mixberry.png",
     "The perfect choice for the undecided, this jam has a bit of everything.",
-    "Strawberries (Organic), Raspberries (Organic), Blueberries (Organic), Grape Puree (Organic), Water, Lemon Juice Concentrate (Organic), Dried Sugar Cane Syrup (Organic), Fruit Pectin."
+    ["Strawberries (Organic)", "Raspberries (Organic)", "Blueberries (Organic)", "Grape Puree (Organic)", "Water", "Lemon Juice Concentrate (Organic)", "Dried Sugar Cane Syrup (Organic)", "Fruit Pectin"]
   ),
 
   new Product(
@@ -48,15 +48,15 @@ let products = [
     4,
     "images/products/lemon.png",
     "Jazz up a biscuit, English muffin, or slice of toast with a spoonful of Lemon Jelly. You know what they say (or what they should say): When life give you lemons, make Lemon Jelly!",
-    "Meyer Lemons, Fresh Meyer Lemon Juice, Organic Cane Juice"
+    ["Meyer Lemons", "Fresh Meyer Lemon Juice", "Organic Cane Juice"]
   ),
 
   new Product(
     "Grape Jelly",
-    9,
+    10,
     "images/products/grapejelly.png", 
     "America's favorite. Every jar starts with one pound of grapes. For delicious, one‑of‑a‑kind taste with no artificial flavors or colors.",
-    "Organic Sugar, Water, Organic Concord Grape Juice Concentrate, Citric Acid, Fruit Pectin."
+    ["Organic Sugar", "Water", "Organic Concord Grape Juice Concentrate", "Citric Acid", "Fruit Pectin"]
   ),
 
   new Product(
@@ -64,7 +64,7 @@ let products = [
     3,
     "images/products/Ginger-Cardamom-Pear-Butter.png",
     "Spread this fruity butter on muffins or whole grain baguettes and savor the flavors of pear and ginger.",
-    "Bartlett Pears, Organic Evaporated Cane Juice, Cardamom, Ginger, Lemon Juice, Salt"
+    ["Bartlett Pears", "Organic Evaporated Cane Juice", "Cardamom", "Ginger", "Lemon Juice", "Salt"]
   ),
 
   new Product(
@@ -72,7 +72,7 @@ let products = [
     4,
     "images/products/cinnamonblueberry.png",
     "Many people might think warm spices belong to the winter holidays, but I find them most enjoyable paired with summer fruit.The hint of cinnamon perfectly balances the sweet and tart flavor of blueberries.",
-    "Organic Wild Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid."
+    ["Organic Wild Blueberries, Organic Cane Sugar, Cinnamon Apple Pectin, Ascorbic Acid (Vitamin C), Citric Acid."]
   ),
 
   new Product(
@@ -80,7 +80,7 @@ let products = [
     6,
     "images/products/Cinnamon-Spiced-Triple-Berry-Jam.png",
     "On waffles or in cocktails, this beautiful spiced triple berry jam is a delicious addition to your pantry.",
-    "Berry Mix- (Organic Strawberries, Organic Blackberries, Organic Blueberries), Water, Organic Sugar, Fruit Pectin, Calcium Chloride, Citric Acid, Cinnamon, Allspice, Nutmeg"
+    ["Berry Mix- (Organic Strawberries, Organic Blackberries, Organic Blueberries)", "Water", "Organic Sugar", "Fruit Pectin", "Calcium Chloride", "Citric Acid", "Cinnamon", "Allspice", "Nutmeg"]
   ),
 
   new Product(
@@ -88,14 +88,14 @@ let products = [
     7,
     "images/products/blueberry.png",
     "The health benefits from eating blueberries are so great that we decided to preserve them as a jam, and honestly we can't pick what we like it on the most.",
-    "Organic Wild Blueberries, Organic Cane Sugar, Apple Pectin"
+    ["Organic Wild Blueberries", "Organic Cane Sugar", "Apple Pectin"]
   ),
 
   new Product(
     "Blackberry",
-    7,
+    10,
     "images/products/Blackberry.png", " Savor the tart, sweet flavor of fresh summer blackberries all year round with this Blackberry Jelly recipe. Can complement any dessert.",
-    "Organic Seedless Blackberry Puree, Organic Cane Sugar, Fruit Pectin"
+    ["Organic Seedless Blackberry Puree", "Organic Cane Sugar", "Fruit Pectin"]
   ),
 
   new Product(
@@ -103,22 +103,28 @@ let products = [
     10,
     "images/products/applebutter.png",
     "This homemade Apple Butter is smooth, creamy, and velvety. Super healthy, delicious, and perfect for spreading on toast, muffins, pancakes etc.",
-    "Apples, Cinnamon, Allspice, Brown Sugar, Honey"
+    ["Apples", "Cinnamon", "Allspice", "Brown Sugar", "Honey"]
   )
 ];
 
   let row1 = $("#row-1")
+  let row2 = $("#row-2")
   products.forEach(function (product, index) {
-    let item = `<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+
+    let list = function (array) {
+      let listItems = [];
+      for (let i = 0; i < array.length; i++) {
+        listItems.push( `<li>${array[i]}</li>`)
+      }
+      return listItems.join("");
+    }  
+    let item = `<div class="col-lg-3 col-md-6 portfolio-item filter-app">
+    
     <div class="portfolio-wrap">
       <img src="${product.image}"class="img-fluid" alt="">
-      <div class="portfolio-info">
+      <div class="portfolio-info" data-toggle="modal" data-target="#${product.id}">
         <h4>${product.name}</h4>
         <p>${product.priceSmall} / ${product.priceLarge}</p>
-        <div class="portfolio-links">
-          <a href="#" title="Add to Cart"><i class="bx bx-plus"></i></a>
-          <a  data-toggle="modal" data-target="#${product.id}"title="More Details"><i class="bx bx-link"></i></a>
-        </div>
       </div>
     </div>
   </div>
@@ -129,7 +135,7 @@ let products = [
         <div class="modal-header" style="background-color:#ff5c5c; color:white;">
           <h5 class="modal-title" id="exampleModalLongTitle">Product Information</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span style="color: white" aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
@@ -157,7 +163,6 @@ let products = [
                   <br>
                   <strong>Large</strong>: ${product.sizeLarge}
                   </li>
-                  <li><a href="#">Add to Cart</a></li>
                 </ul>
                 </div>
                 <div class="row mt-2">
@@ -166,9 +171,9 @@ let products = [
                     ${product.description}
                     </p>
                     <h4>Ingredients</h4>
-                    <p style="margin-bottom: -60px;">
-                    ${product.ingredients}
-                    </p>
+                    <ul style="margin-bottom: -60px;">
+                    ${list(product.ingredients)}
+                    </ul>
                     </div>
                 </div>
     
@@ -178,13 +183,15 @@ let products = [
         </section><!-- End Portfolio Details Section -->
         </div>
         <div class="modal-footer" style="background-color:#161E67">
-          <button type="button"  id="modal-button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <button type="button"  id="modal-button" class="btn btn-primary" data-dismiss="modal">Add to Cart</button>
         </div>
       </div>
     </div>
   </div>
   `
-  row1.append(item)
-   
+    if (product.popularity == 10) {
+      row2.append(item)
+    }
+    row1.append(item)
   })
   
