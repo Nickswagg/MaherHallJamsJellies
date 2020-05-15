@@ -590,6 +590,7 @@ section {
   font-size: 28px;
   font-weight: 700;
   color: #161e67;
+  text-shadow: 1px 1px 2px #ff5c5c;
 }
 
 .breadcrumbs ol {
@@ -862,18 +863,18 @@ section {
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 40px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  position: relative;
-  background: #fff;
+    padding: 55px;
+    box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.08);
+    position: relative;
+    background: #fff;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid #fff;
-  float: left;
-  margin: 0 10px 0 0;
+  width: 140px;
+    border-radius: 75px;
+    border: 6px solid #fff;
+    float: left;
+    margin: -40px 16px 0px;
 }
 
 .testimonials .testimonial-item h3 {
