@@ -125,6 +125,7 @@ let products = [
       <div class="portfolio-info" data-toggle="modal" data-target="#${product.id}">
         <h4>${product.name}</h4>
         <p>${product.priceSmall} / ${product.priceLarge}</p>
+        <button class="btn-primary btn-sm">Check it out!</button>
       </div>
     </div>
   </div>
